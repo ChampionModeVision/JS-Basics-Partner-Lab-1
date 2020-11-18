@@ -25,8 +25,8 @@ console.log(randomNumber);
 
 let userNum = prompt("Guess a number between 1 and 10");
 
-if (userNum === randomNumber) {
+if (userNum == randomNumber) {
     alert("You're a genius!");
 } else if ((userNum !== randomNumber)) {
-    alert("Sorry, you guessed wrong...");
+    alert(`Sorry, you guessed wrong the number is ${randomNumber}...`);
 }
